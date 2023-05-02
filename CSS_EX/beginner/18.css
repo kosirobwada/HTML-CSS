@@ -1,0 +1,18 @@
+.page1 {
+    height: 1000px;
+    background: #BAD3FF;
+}
+.page2 {
+    height: 1000px;
+    background: #B1F9D0;
+}
+.page3 {
+    height: 1000px;
+    background: #FFC7AF;
+}
+.tracking {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background: #ccc;
+}

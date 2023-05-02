@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>足し算</title>
+  <style>
+    /* スタイルを定義 */
+    input {
+      width: 200px;
+      height: 30px;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    button {
+      width: 100px;
+      height: 30px;
+      font-size: 16px;
+    }
+    #result {
+      font-size: 24px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>足し算</h1>
+  <form>
+    <label for="num1">数値1:</label>
+    <input type="number" id="num1"><br>
+    <label for="num2">数値2:</label>
+    <input type="number" id="num2"><br>
+    <button type="button" onclick="calc()">計算</button>
+  </form>
+  <p id="result"></p>
+  <script>
+    function calc() {
+      // 入力フィールドから値を取得
+      var num1 = document.getElementById("num1").value;
+      var num2 = document.getElementById("num2").value;
+      
+      // 計算を実行
+      var result = Number(num1) + Number(num2);
+      
+      // 結果を表示
+      document.getElementById("result").innerHTML = "結果: " + result;
+    }
+  </script>
+</body>
+</html>

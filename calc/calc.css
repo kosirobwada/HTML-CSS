@@ -1,0 +1,16 @@
+input {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  button {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+  }
+  #result {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  

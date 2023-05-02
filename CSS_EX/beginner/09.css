@@ -1,0 +1,13 @@
+.boxs{
+    width:500px;
+    border:2px solid black;
+}
+
+.box{
+    background: white;
+    border:2px solid black;
+    text-align: center;
+    height:100px;
+    width:100px;
+    margin: 0 auto;
+}

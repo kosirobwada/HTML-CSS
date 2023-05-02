@@ -1,0 +1,16 @@
+.boxs {
+    width: 312px;
+    background: white;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background: black;
+    margin: 1px;
+  }

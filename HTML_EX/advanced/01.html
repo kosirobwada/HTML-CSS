@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>ninja</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="ninja.php" method="post">
+            <dt>お問い合わせ項目</dt>
+            <dd>
+                <label><input type="checkbox" name="category" value="お問い合わせ">お問い合わせ</label>
+                <label><input type="checkbox" name="category" value="新規申し込み">新規申し込み</label>
+                <label><input type="checkbox" name="category" value="資料請求">資料請求</label>
+            </dd>
+            <dt>お名前<span class="must">※</span></dt>
+            <dd>
+                <input type="text" name="name" required placeholder="忍者太郎">
+            </dd>
+            <dt>ふりがな<span class="must">※</span></dt>
+            <dd>
+                <input type="text" name="kana" required placeholder="にんじゃたろう">
+            </dd>
+            <dt>メールアドレス<span class="must">※</span></dt>
+            <dd>
+                <input type="text" name="mail" required placeholder="ninjacode@test.com">
+            </dd>
+            <dt>電話番号<span class="must">※</span></dt>
+            <dd>
+                <input type="text" name="phone" required placeholder="0312345678">
+            </dd>
+            <dt>性別</dt>
+            <dd>
+                <label><input type="radio" name="gender" value="男">男</label>
+                <label><input type="radio" name="gender" value="女">女</label>
+            </dd>
+            <dt>当サイトをお知りになったきっかけ</dt>
+            <dd>
+                <select name="how">
+                    <option value="ホームページ">ホームページ</option>
+                    <option value="SNS">SNS</option>
+                    <option value="広告">広告</option>
+                </select>
+            </dd>
+            <dt>お問い合わせ内容<span class="must">※</span></dt>
+            <dd>
+                <textarea name="query" cols="30" rows="5" required></textarea>
+            </dd>
+            <button type="submit" name="submit">送信する</button>
+        </form>
+    </body>
+</html>

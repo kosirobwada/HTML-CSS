@@ -1,0 +1,15 @@
+.boxs {
+    width: 300px;
+    background: white;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background: black;
+  }

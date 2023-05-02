@@ -1,0 +1,15 @@
+h1 {
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    position: relative;
+    height: 100px;
+    background: #6699CC;
+  }
+  .header_title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
