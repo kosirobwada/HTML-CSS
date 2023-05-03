@@ -1,0 +1,19 @@
+.before-cat::before{
+    content:"▼";
+    padding-right: 4px;
+}
+h3::before,
+h3::after {
+    display: inline-block;
+    vertical-align:5px;
+    content:"";
+    width: 40px;
+    height: 2px;
+    background-color: #000;
+}
+h3::before{
+    margin-right: 8px;
+}
+h3::after{
+    margin-left: 8px ;
+}

@@ -1,0 +1,15 @@
+dt{
+    float: left;
+}
+dd{
+    width: 400px;
+    margin:0 0 16px 100px;
+    border-bottom: 1px dotted;
+}
+ul,li{
+    list-style:none;
+    padding:0;
+}
+li::before{
+    content:"◇";
+}

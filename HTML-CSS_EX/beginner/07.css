@@ -1,0 +1,21 @@
+.cat-red{
+    color:red;
+}
+#catBlue{
+    color:blue;
+}
+input::placeholder{
+    color:green;
+}
+[data-text="target"]{
+    color:pink;
+}
+ul li:first-child{
+    color:red;
+}
+ul li:last-child{
+    color:blue;
+}
+ul li:nth-child(6){
+    color:green;
+}

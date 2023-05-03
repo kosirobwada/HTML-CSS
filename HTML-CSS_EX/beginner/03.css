@@ -1,0 +1,7 @@
+.block_cat{
+    width: 300px;
+    height: 300px;
+    border:1px solid;
+    background:red;
+    box-shadow: 10px 10px 15px -10px;
+}

@@ -1,0 +1,6 @@
+textarea::placeholder{
+    color:red;
+}
+input::placeholder{
+    color:red;
+}
