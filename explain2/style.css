@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    font-size: 1.2rem;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, #90399e,#cd2f2f);
+    overflow: hidden;
+    position: relative;
+}
+nav {
+    width: 80%;
+    margin: 20px auto;
+    align-items: center;
+    font-weight: 550;
+    position: sticky;
+    z-index: 1;
+}
+.logo{
+    margin-right: 12px;
+}
+.logo-area{
+    display: flex;
+    align-items: center;
+}
+.information{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+}
+#circle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    transform: rotate(0deg);
+}
+.feature{
+    position: absolute;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+.feature img{
+    width: 200px;
+}
+.feature div{
+    margin-left: 20px;
+}
+.feature div a{
+    margin-top: 8px;
+}
+.one{
+    top: 450px;
+    right: 70px;
+}
+.two{
+    top: 100px;
+    left: 340px;
+    transform: rotate(-90deg);
+}
+.three{
+    bottom: 450px;
+    left: 50px;
+    transform: rotate(-180deg);
+}
+.four{
+    bottom: 150px;
+    right: 370px;
+    transform: rotate(90deg);
+}
+.pc{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 27%;
+    z-index: 2;
+}
+.control{
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.control img{
+    width: 15%;
+}
+.control h3{
+    color: white;
+    margin: 20px 0;
+}
+#upbtn{
+    cursor: pointer;
+}
+#dwnbtn{
+    cursor: pointer;
+    transform: rotate(-180deg);
+}
+.overlay{
+    width:0 ;
+    height: 0;
+    border-top: 520px solid white;
+    border-right: 520px solid transparent;
+    border-left: 520px solid white;
+    border-bottom: 520px solid  white;
+}
