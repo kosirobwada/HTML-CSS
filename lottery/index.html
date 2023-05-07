@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>抽選アプリ</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>抽選アプリ</h1>
+    <div class="input-form">
+        <label for="num">人数：</label>
+        <input type="number" id="num" name="num" min="1">
+        <button onclick="saveNames()">名前を保存</button>
+    </div>
+    <div id="names-form" class="input-form hidden">
+        <h2>名前を入力</h2>
+        <form>
+            <ul id="names-list"></ul>
+            <button type="submit" onclick="return false">抽選する</button>
+        </form>
+    </div>
+</body>
+</html>
